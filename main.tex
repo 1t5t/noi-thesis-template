@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{ctex}
+
+\begin{document}
+{
+	\title{YYYY 年信息学奥林匹克 \\ 中国国家集训队论文}
+	\author{教练：XXX}
+	\maketitle
+	\thispagestyle{empty}
+}
+{
+	\newpage
+	\hypersetup{hidelinks}
+	\setcounter{tocdepth}{1}
+	\tableofcontents
+	\thispagestyle{empty}
+}
+
+\setcounter{page}{0}
+\input{subfile_list.tex}
+
+\end{document}
